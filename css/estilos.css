@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+#navegador{
+    background-color: #0984e3;
+    width: 100%;
+}
+#banner{
+    background-color: #74b9ff;
+    height: 200px;
+}
+#logo{
+    width: 35%
+}
+#info{
+    background-color: #c8d6e5;
+    height: 200px;
+}
+#testimonio{
+    background-color: #0984e3;
+    height: 350px;
+    padding: 0px;
+    margin: 0px;    
+}
+#contacto{
+    background-color: #74b9ff;
+    height: 350px;
+}
+#footer{
+    background-color: #0984e3;
+    height: 50px;
+}
+#tituloContacto{
+    font: white;
+    
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+nav {
+    width: 60%;
+    float: center;
+}
+  
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: right;
+ }
+
+  .img-size{
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .opacidad{
+    background-color: rgba(0, 0, 0, 0.5)
+    
+  }
+
+  .margin{
+      margin: 10px;
+  }
+
+  .block-login{
+    width: 400px;
+    height: 500px;
+    background-color: #74b9ff;
+    padding: 20px 80px;
+    text-align: center;
+    font: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+#formulario{
+    background-color: #74b9ff;
+    width: 1200px;
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tercera edad</title>
+    <link rel="stylesheet" href="css/flexboxgrid.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg" id="navegador">
+        <div id="logo">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logos-de-doctores-2-1.jpg" height="50" width="100">
+            </a>
+        </div>
+    </nav>
+    <div class="container-fluid" id="formulario">
+        <form action="#" method="get">
+            <h2>Registro</h2>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label for="">Rut:</label>
+                        <input type="text" name="rut" id="rut" class="form-control" placeholder="Ingrese Rut" required>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label for="">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese Nombre" required>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label for="">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Ingrese Apellido" required>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label for="">Fecha nacimiento</label>
+                        <input type="date" name="FechaNacimiento" id="fNac" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label for="">Prevision</label>
+                        <select name="" id="" class="form-control">
+                            <option hidden>Seleccione prevision</option>
+                            <option value="1">Fonasa</option>
+                            <option value="2">Isapre</option>
+                            <option value="3">Particular</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="form-group">
+                        <label for="">Informacion medica:</label>
+                        <textarea name="" id="" cols="10" rows="10" class="form-control"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <input type="submit" class="btn btn-primary margin" value="Registrar">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
